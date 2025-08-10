@@ -3,7 +3,15 @@
     <button data-cy="home" :class="[route.path !== '/' ? 'visible' : 'invisible']" @click="router.push('/')">
       <Home class="place-self-center" />
     </button>
-    <img data-cy="tm-logo" src="@/assets/tm-logo.gif" @click="router.push('/')" />
+
+    <span
+      data-cy="tm-logo"
+      class="place-self-center text-white opacity-60 hover:opacity-100 cursor-pointer font-semibold"
+      @click="router.push('/')"
+    >
+      Test Dashboard
+    </span>
+
     <Login />
   </nav>
 </template>
@@ -23,8 +31,5 @@ nav {
 }
 button {
   @apply bg-white bg-opacity-30 hover:bg-opacity-20 self-center text-white rounded-sm ml-3 w-8 h-8 cursor-pointer grid;
-}
-img {
-  @apply h-10 py-3 place-self-center opacity-60 hover:opacity-100 cursor-pointer;
 }
 </style>

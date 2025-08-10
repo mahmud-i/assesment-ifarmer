@@ -7,16 +7,16 @@ theme: {
       colors: {
         backdrop: '#000000a3',
         
-        blue1: '#E4F0F6',
-        blue10: '#0C3953',
-        blue2: '#BCD9EA',
-        blue3: '#8BBDD9',
-        blue4: '#5BA4CF',
-        blue5: '#298FCA',
-        blue6: '#0079BF',
-        blue7: '#026AA7',
-        blue8: '#055A8C',
-        blue9: '#094C72',
+        blue1:  '#E0F7F9',
+        blue2:  '#B3E5E7',
+        blue3:  '#80D1D6',
+        blue4:  '#4DBBC4',
+        blue5:  '#26A8B1',
+        blue6:  '#1E8B8F',
+        blue7:  '#176B6D',  // main replaced blue7
+        blue8:  '#115351',
+        blue9:  '#0B3D3B',
+        blue10: '#062826',
 
         gray1: '#F8F9F9',
         gray10: '#838C91',
